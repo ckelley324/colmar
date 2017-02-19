@@ -1,3 +1,38 @@
 html {
   font-size: 16px;
+  font-family: "Comic Sans"
+}
+
+header {
+  height: 4rem;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+}
+
+header nav li {
+  margin-right: 1rem;
+  display: inline-flex;
+}
+
+.first-class {
+  font-weight: bold;
+}
+
+#campus {
+  display: inline-block;
+  padding: 2rem 1.5rem;
+}
+
+.campus h5 {
+  background-color: gray;
+  color: white;
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+.campus {
+  display: flex;
 }
