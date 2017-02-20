@@ -1,10 +1,11 @@
 html {
   font-size: 16px;
-  font-family: "Comic Sans"
+  font-family: "Arial";
 }
 
 header {
   height: 4rem;
+  display: inline-flex;
 }
 
 .logo {
@@ -17,12 +18,12 @@ header nav li {
   display: inline-flex;
 }
 
-.first-class {
+.first-word {
   font-weight: bold;
 }
 
 #campus {
-  display: inline-block;
+  display: inline-flex;
   padding: 2rem 1.5rem;
 }
 
@@ -30,9 +31,66 @@ header nav li {
   background-color: gray;
   color: white;
   width: 100%;
-  margin: 0.5rem auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 .campus {
   display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.campus .image {
+  margin: 2rem 2.5rem 2rem 1.5rem;
+
+}
+
+.campus h2 {
+  font-size: 2.5rem;
+  color: gray;
+}
+
+.campus p {
+  font-size: 1.5rem;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-half {
+  display: block;
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.first-half img {
+  width: 60%;
+}
+
+.second-half {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  width: 423px;
+  display: flex;
+}
+
+.block img {
+  width: 35%;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#learn h3 {
+  text-align: center;
 }
