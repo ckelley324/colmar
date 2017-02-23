@@ -23,11 +23,6 @@ header nav li {
   font-weight: bold;
 }
 
-#campus {
-  display: inline-flex;
-  padding: 2rem 1.5rem;
-}
-
 .campus h5 {
   background-color: gray;
   color: white;
@@ -39,13 +34,12 @@ header nav li {
 
 .campus {
   display: flex;
-  justify-content: space-between;
   background-color: lightgray;
 }
 
-.campus .image {
+.campus img {
   margin: 2rem 2.5rem 2rem 1.5rem;
-
+  width: 60%;
 }
 
 .campus h2 {
